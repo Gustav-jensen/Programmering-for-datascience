@@ -1,4 +1,5 @@
 # Programmering-for-datascience
+# Første opgave beregn gennemsnittet af inflammation pr. dag
 inflammation <- read.csv(
   file = "data/inflammation-01.csv",
   header = FALSE
