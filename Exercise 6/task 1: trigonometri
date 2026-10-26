@@ -8,23 +8,23 @@ def triagnle_area(width,length):
     return((width * length) / 2)
 
 try: 
-    num = int(input("{0}please enter number between 1 and 3 {1} 1) Rectangle Area {2} 2) Square Area {3} 3) Triangel Area"))
+    num = int(input("please enter number between 1 and 3 to choose: \n 1) Rectangle Area \n 2) Square Area \n 3) Triangel Area\n"))
 
 
     if num == 1:
-        width = float(input("write width"))
-        length = float(input("write length"))
+        width = float(input("write width: "))
+        length = float(input("write length: "))
         area = rectangle_area(width,length)
         print(area)
         
     elif num == 2:
-        side = float(input("write side "))
+        side = float(input("write side: "))
         area = (square_area(side))
         print(area)
 
     elif num == 3:
-        width = float(input("write width"))
-        length = float(input("write length"))
+        width = float(input("write width: "))
+        length = float(input("write length: "))
         area = triagnle_area(width,length)
         print(area)
     else:
